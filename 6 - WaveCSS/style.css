@@ -4,16 +4,16 @@
 }
 
 section {
-    position: relative;
+    position: relative; /*position: relative -> O elemento fica posicionado de forma relativa, ou seja, fica no seu lugar em relação ao fluxo do documento, mas pode ser deslocado fazendo uso das propriedades auxiliares top e left. Mesmo quando deslocado, o seu lugar no fluxo do documento é preservado.*/
     width: 100%;
     height: 100vh;
     background: #3586ff;
-    overflow: hidden;
+    overflow: hidden; /*impede que as barras de rolagem apareçam*/
 }
 
 section .wave {
     position: absolute;
-    bottom: 0;
+    bottom: 0; /* A linha um elemento verticalmente. Não tem efeito em elementos não posicionados */
     left: 0;
     width: 100%;
     height: 100px;
@@ -56,7 +56,7 @@ section .wave.wave2 {
     }
 
     100% {
-        background-position-x: -1000px;
+        background-position-x: -1000px; /*A propriedade CSS background-position-x define a posição horizontal inicial para cada imagem de fundo. A posição é relativa à posição da camada definida pela origem do plano de fundo. */
     }
 }
 
@@ -67,17 +67,7 @@ section .wave.wave3 {
     animation-delay: -2s;
     bottom: 15px;
 }
-/*
-@keyframes animate2 {
-    0% {
-        background-position-x: 0;
-    }
 
-    100% {
-        background-position-x: -1000px;
-    }
-}
-*/
 
 section .wave.wave4 {
     animation: animate2 5s linear infinite;

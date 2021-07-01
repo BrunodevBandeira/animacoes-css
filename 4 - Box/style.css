@@ -1,0 +1,23 @@
+body {
+    margin: 100px;
+    background-color: #2e2e2e;
+
+}
+
+.box {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    transition-property: background-color, border-radius; /*transition-property: mostra qual a propriedad que vai passar pela transição*/
+    transition-duration: 2s, 1.5s;
+    transition-delay: 1s; /*É o tempo que uma animação sai de um e vai pra outro*/
+    transition-timing-function: ease-in;/*Da uma suavisada no começo da animação */
+}
+
+
+
+
+.box:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}

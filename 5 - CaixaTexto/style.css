@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    font-family: sans-serif;
+    font-size: 300%;
+    height: 100vh;
+    place-items: center;
+}
+
+.text-reveal {
+    &::after {
+        
+    }
+}

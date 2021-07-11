@@ -21,7 +21,8 @@ body {
     color: rgba(255, 255, 255, .1);
     background: url(imagem.png);
     background-repeat: repeat-x;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; /*-background-clip:
+                                                     Especifica se o fundo de um elemento, seja cor ou imagem, se extende debaixo de sua área de borda, preenchimento ou conteúdo.*/
     animation: animate 10s linear infinite;
 }
 

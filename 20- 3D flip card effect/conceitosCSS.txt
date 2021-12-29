@@ -1,0 +1,47 @@
+   ==============> min-height: 100vh; <===============
+   https://www.w3schools.com/CSSref/pr_dim_min-height.asp
+        A min-heightpropriedade define a altura mínima de um elemento.
+        conteúdo for menor que a altura mínima, a altura mínima será aplicada.
+        Se o conteúdo for maior do que a altura mínima, a min-heightpropriedade não tem efeito.
+
+
+   ==============> transform-style <===============
+   https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-style
+    A propriedade transform-style CSS  define se os elemento filhos 
+    são posicionados em um espaco 3D ou serão achatados ( flattened ) no plano do elemento
+
+    preserve-3d
+        ndica que os filhos do elemento devem ser posicionados no espaço 3D.
+
+
+
+   ==============> rotateY() <===============
+
+A função CSS define uma transformação que gira um elemento em torno 
+da ordenada (eixo vertical) sem deformá-lo. Seu resultado é um tipo de dados. rotateY()
+
+
+
+
+   ==============> perspective: 1000px <===============
+
+A perspectivepropriedade CSS dá a um elemento um espaço 3D ao afetar a distância entre 
+o plano Z e o usuário.
+
+A força do efeito é determinada pelo valor. Quanto menor o valor, 
+mais perto você se aproxima do plano Z e mais impressionante é o efeito visual. 
+Quanto maior o valor, mais sutil será o efeito.
+
+Importante: Observe que a propriedade perspective não afeta como o elemento é renderizado; 
+simplesmente habilita um espaço 3D para elementos filhos. Esta é a principal 
+diferença entre a transform: perspective()função e a perspectivepropriedade. 
+O primeiro fornece a profundidade do elemento, 
+enquanto o último cria um espaço 3D compartilhado por todos os seus filhos transformados.
+
+    
+
+   ==============> object-fit: cover; <===============
+   https://www.w3schools.com/csS/css3_object-fit.asp
+A object-fitpropriedade CSS é usada para especificar como um <img> ou <video> 
+deve ser redimensionado para caber em seu contêiner.
+

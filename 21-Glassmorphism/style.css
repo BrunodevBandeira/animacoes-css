@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+div.container{
+
+    background-color: rgba(166, 17, 17, 0.25);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    
+}
+
+p{
+    font-size: 22px;
+    font-weight: 300;
+}
